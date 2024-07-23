@@ -1,0 +1,4 @@
+*.swp
+*.zwc
+*.zwc.old
+direnv-hook-zsh.zsh
