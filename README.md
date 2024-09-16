@@ -1,7 +1,7 @@
 direnv
 ======
 
-Caches the script to set up the [direnv] Zsh shell integration.
+Sets up the Zsh shell integration for [direnv].
 
 The following should be removed from your `~/.zshrc`, since this module will
 already take care of it:
