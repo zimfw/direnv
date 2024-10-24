@@ -1,4 +1,4 @@
-if (( ! ${+DIRENV_LOG_FORMAT} )) export DIRENV_LOG_FORMAT=$'\E[1mdirenv: %s\E[0m'
+if [[ -z ${NO_COLOR} && ${+DIRENV_LOG_FORMAT} -eq 0 ]] export DIRENV_LOG_FORMAT=$'\E[2mdirenv: %s\E[0m'
 () {
   local -r target=${1}
   shift
